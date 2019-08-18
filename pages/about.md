@@ -1,9 +1,9 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
-comments: true
+description: what？？
+keywords: Long Zhang, 张龙
+comments: false
 menu: 关于
 permalink: /about/
 ---
