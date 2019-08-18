@@ -14,7 +14,7 @@ keywords: Bios， Lenovo， Case
 
 - （笔记本）**FN+F1/F1**
 
-  win10在快速启动没关的情况下可能无法按F1进入Bios，解决方法为：*1、关闭快速启动/在当前系统下重启电脑 2、进入疑难解答界面（按Shift+重启/强制重启三次/设置界面-安全-恢复-重新启动）-UEFI固件设置*
+  ```win10在快速启动没关的情况下可能无法按F1进入Bios，解决方法为：*1、关闭快速启动/在当前系统下重启电脑 2、进入疑难解答界面（按Shift+重启/强制重启三次/设置界面-安全-恢复-重新启动）-UEFI固件设置```
 
 #### 如何进入安全模式
 
@@ -162,13 +162,74 @@ Fingerprint Setup「指纹设置」
 
 TCG Feature Setup「TCG安全芯片设置」
 
-System Event Log「系统事件日志」 *可以在这里看到系统硬件配置的更改记录*
+System Event Log「系统事件日志」 
 
-Secure Boot「安全启动（保护预装系统）」 *装个功能开着，重装系统后可能启动不了*
+Secure Boot「安全启动」 
 
-Device Guard「设备保护」 *阻止用户更改BIOS部分设置，比如引导模式*
+```保护预装系统，该功能不关闭，重装系统会打不开。重装系统前注意数据备份```
 
-Password Count Exceeded Error「密码输入超限错误」 *输入错误的密码超过一定次数报错0199*
+Device Guard「设备保护」 
+
+```导致有些功能无法使用```
+
+Password Count Exceeded Error「密码输入超限错误」
+
+```密码输入超过三次报错0199```
 
 
 
+**故障问题**
+
+> Case：0199报错是密码输入三次错误后的机器报警可能是开机密码错误和硬盘密码错误
+>
+> Solution：按F2会显示出设置密码类型1、输入正确的开机密码，可以正常启动计算机（应急方案为清         CMOS，但不推荐用户使用）2、输入正确的硬盘密码后即可正常启动系统（不要清CMOS，不然硬盘报废）
+
+
+
+### Startup
+
+---
+
+Primary Boot Sequence「主要启动顺序」
+
+```可以查看硬盘是否被识别到```
+
+- Excluded from boot order「禁止启动」
+
+   ```禁止后会导致按F12找不到引导盘```
+
+CSM「兼容模块」
+
+```WIN 7及以前开启```
+
+- Boot Mode「启动方式」
+- Boot Priority「启动方式优先级」
+- Start Up Device Menu Prompt「F12启动菜单功能开关」
+
+
+
+**WIN10换WIN7注意事项**
+
+- 备份数据
+- 重新分区
+- 如果是预装了Win10系统，改Win7后会有激活问题，提醒用户
+- NVme 的 SSD 需要加载NVme驱动
+- 如果是6代CPU需要封装USB3驱动
+- 100代之后的主板理论上不支持Win7，提醒用户
+
+![微信截图_20190819014325](E:\GitHub\apolonmxl.github.io\images\posts\2019-08-18\微信截图_20190819014325.png)![微信截图_20190819014308](E:\GitHub\apolonmxl.github.io\images\posts\2019-08-18\微信截图_20190819014308.png)
+
+
+
+### Exit
+
+Save Changes and Exit「保存并退出，按F10」
+
+Discard Changes and Exit「不保存并退出」
+
+Load Optimal Defaults「加载默认设置，按F9」
+
+**OS Optimized Defaults「优化OS初始值」**
+
+- Win7及以前[Disabled]
+- Win8及以后[Enable]
