@@ -87,7 +87,7 @@ repository: mzlogin/mzlogin.github.io
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
-comments_provider: gitalk
+comments_provider: 
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
@@ -98,14 +98,14 @@ gitment:
     owner: apolonmxl
     repo: blog-comments
     oauth:
-        client_id: ca8ec96d18a4c56772bc
-        client_secret: 0409f999dedbcfbe4b2a2da8cd564887410ba4d1
+        client_id:
+        client_secret: 
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: apolonmxl
     repo: blog-comments
-    clientID: ca8ec96d18a4c56772bc
-    clientSecret: 0409f999dedbcfbe4b2a2da8cd564887410ba4d1
+    clientID: 
+    clientSecret: 
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
