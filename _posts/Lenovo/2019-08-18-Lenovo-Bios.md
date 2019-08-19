@@ -14,7 +14,7 @@ keywords: Bios， Lenovo， Case
 
 - （台式+一体机）**F1**
 
-- （笔记本）**FN+F1/F1**
+- （笔记本）**FN+F2/F2**
 
   ```win10在快速启动没关的情况下可能无法按F1进入Bios，解决方法为：*1、关闭快速启动/在当前系统下重启电脑 2、进入疑难解答界面（按Shift+重启/强制重启三次/设置界面-安全-恢复-重新启动）-UEFI固件设置```
 
@@ -219,7 +219,7 @@ CSM「兼容模块」
 - 如果是6代CPU需要封装USB3驱动
 - 100代之后的主板理论上不支持Win7，提醒用户
 
-![微信截图_20190819014325](https://github.com/apolonmxl/apolonmxl.github.io/blob/master/images/posts/2019-08-18/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190819014325.png)![微信截图_20190819014308](https://github.com/apolonmxl/apolonmxl.github.io/blob/master/images/posts/2019-08-18/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190819014308.png)
+![微信截图_20190819014325](https://raw.githubusercontent.com/apolonmxl/apolonmxl.github.io/master/images/posts/2019-08-18/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190819014325.png)![微信截图_20190819014308](https://raw.githubusercontent.com/apolonmxl/apolonmxl.github.io/master/images/posts/2019-08-18/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20190819014308.png)
 
 
 
