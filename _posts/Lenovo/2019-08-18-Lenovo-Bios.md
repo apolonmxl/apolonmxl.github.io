@@ -66,7 +66,7 @@ USB Setup「USB菜单」→USB Virtual KBC Support「虚拟USB键鼠」
 
 Video Setup「显示菜单」
 
-> Case：主机加点无显示
+> Case：主机加电无显示
 >
 > Cause：配置独立显卡，默认情况自动屏蔽集成显卡
 
