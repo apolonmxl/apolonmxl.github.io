@@ -6,6 +6,8 @@ description: some word here
 keywords: Bios， Lenovo， Case
 ---
 
+感谢Ryuu的博文[Bios设置](https://kuroidark.github.io/posts/培训/BIOS设置.html) 
+
 **BIOS**（Basic Input Output System），中文名称“基本输入输出系统”。是一组固化到计算机主板上一个ROM芯片上的程序，它保存着计算机最**重要的基本输入输出的程序、开机后自检程序和系统自启动程序**，它可从CMOS（Complementary Metal Oxide Semiconductor互补金属氧化物半导体 ）中读写系统设置的具体信息。 其主要功能是**为计算机提供最底层的、最直接的硬件设置和控制**。
 
 #### 如何进入Bios
