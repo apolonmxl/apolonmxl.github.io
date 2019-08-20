@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lenove产品Bios培训
+title: Lenove-Bios培训
 categories: Lenovo
 description: some word here
 keywords: Bios， Lenovo， Case
